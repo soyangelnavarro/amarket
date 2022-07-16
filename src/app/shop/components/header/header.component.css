@@ -1,0 +1,25 @@
+.nav {
+  background: rgb(176, 18, 220) !important;
+}
+
+.nav a {
+  color: #fff;
+}
+
+.cart-icon {
+  width: 60px;
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.buscador {
+  width: 100%;
+  text-align: center;
+}
+
+.buscador input {
+  width: calc(50% - 10px);
+  border-radius: 5px;
+  border-width: 0px;
+  padding: 1px 10px;
+}

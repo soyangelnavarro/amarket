@@ -1,1 +1,26 @@
-<p>header works!</p>
+<nav class="navbar navbar-expand-lg nav">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="home">LOGO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="buscador">
+      <input type="text" placeholder="Buscar" (keyup)="searching($event)">
+    </div>
+
+    <div class="collapse navbar-collapse d-flex" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="category">CATEGORIAS</a>
+        </li>
+        <li class="nav-item cart-icon">
+          <a class="nav-link" routerLink="product">
+            <i class="bi bi-basket-fill"></i> 0
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
